@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/about.css')}}">
+
+    <title>Sobre mi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./"><img src="{{url_for('static', filename='imagenes/redstone-lamp.gif')}}" height="50px" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link"  href="./">Me!</a>
+              <a class="nav-link active" aria-current="page" href="./about">Sobre mi</a>
+              
+              <a class="nav-link" href="./galeria">Galería</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+ <div class="yomero" align="center">
+    < Sobre mi />
+</div>
+</head>
+<body>
+<div class="linea"></div>  
+  <section class="layout">
+    <div class="yo" align="center">
+      <h2 align="center"> < ¿QUIÉN SOY? /> </h2>
+      <p align="center"> Hola, mi nombre es Samantha, pero pueden decirme Zam, soy de Morelos, actualmente tengo 17 años,soy técnico en Administración, actualmente estudio Ing. en sistemas en la Universidad Iberoamericana.
+                          
+      </p>
+    </div>
+    
+    <div class="foto" align="center">
+      <img src="{{url_for('static', filename='imagenes/imagen1.jpg')}}" alt="er" height="450px" width="450px" align="center">
+    </div>
+  
+    <div class="YE"align="center">
+      <img src="https://images.genius.com/521b925045ca5be201953c54501f3b6a.640x640x1.png" alt="er" height="450px" width="450px" align="center">
+  
+    </div>
+    <div class="gustos"align="center">
+      <h2 align="center"> < GUSTOS /> </h2>
+      <p align="center"> Me gusta mucho apoyar en campañas sociales, así como ayudar a los demás. Sobre los deportes me gusta mucho la natación, estaba en un equipo, pero por motivos de salud tuve que salirme.
+          A su vez me gustan mucho los animales y soy amante de la naturaleza. Tengo un muy buen gusto musical (Metro Boomin, Ye, 21 savage)
+      </p>
+  
+    </div>
+  
+    <div class="hab"align="center">
+      <h2 align="center"> < HABILIDADES /> </HABILIDADES></h2>
+      <p align="center"> Tengo una gran capacidad analítica, se trabajar bajo presión, me gusta intentar innovar las actividades cotidianas, soy una buena lider, poseo una gran empatía, defiendo mis principios.
+        Se trabajar en equipo, soy responsable, y me gusta comprometerme con lo que hago.
+      <div align="center">
+        <img src="{{url_for('static', filename='imagenes/alien-dance-unscreen.gif')}}" alt="er" width="80px" >
+      </div>
+    </div>
+   
+      <div class="rb" align="center">
+      <img src="{{url_for('static', filename='imagenes/imagen2.jpg')}}" alt="er" height="450px" width="450px" align="center">
+    </div>
+  </section>
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
+

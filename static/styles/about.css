@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+.body{background-color: black;}
+
+
+.yomero{ 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;;
+    font-size: 150px;
+    color: white;
+    background-color: black;}
+
+.layout {
+    
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+.yo{
+    background-color: #070707;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;;
+    font-size: 25px;
+    color: white;
+}
+
+.foto{
+    background-color: #070707;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    
+}
+.YE{
+    background-color: #070707;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;   
+}
+
+.gustos{
+    background-color: #070707;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;;
+    font-size: 25px;
+    color: white;  
+}
+
+.hab{
+    background-color: #070707;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;;
+    font-size: 25px;
+    color: white;
+}
+.rb{
+    background-color: #070707;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;    
+}
+.navbar-nav{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+
+  }
+
+.linea{
+    border-top: 5px solid #ffffff;
+    margin-bottom: 10px;
+    background-color: #070707;
+  }
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000
+  }
